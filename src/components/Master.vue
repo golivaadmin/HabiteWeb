@@ -74,13 +74,12 @@
 
               </li>
               <li><a href="/#/somos" class="link animated">HABITE</a></li>
+<!-- Formulario -->
+          <li>
+              <a class="dropdown-toggle" data-toggle="dropdown">CONTACTO<b class=""></b></a>
 
-              <li>
-                  <a class="dropdown-toggle" data-toggle="dropdown">CONTACTO<b class=""></b></a>
-
-                  <q-popover ref="popover1">
-            <div class="list scroll highlight" style="width: 250px; height: 400px;">
-
+          <q-popover ref="popover1" class="bg-form">
+            <div class="list scroll highlight formdesple">
               <div class="floating-label">
                 <input v-model="form.nombre" required class="full-width" :class="{'has-error' : form_error.nombre}">
                 <label>Nombre</label>
@@ -100,17 +99,13 @@
                 <input v-model="form.rut" required class="full-width" :class="{'has-error' : form_error.rut}">
                 <label>Rut</label>
               </div>
-
               <div class="floating-label">
                 <textarea v-model="form.mensaje" required class="full-width" :class="{'has-error' : form_error.mensaje}"></textarea>
                 <label>Mensaje</label>
               </div>
-
-              <div class="group">
+              <div class="group btn-enviar">
                 <button @click="enviar()" class="primary full-width">ENVIAR</button>
               </div>
-
-
             </div>
           </q-popover>
 

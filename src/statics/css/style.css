@@ -149,6 +149,14 @@ div#wrapper-ventana div#ventana input#focus-ventana{width:0px;height:0px;margin:
 .q-slider-track>div {padding:0 !important; margin-top: 20px; min-height: auto !important;}
 
 
+/* NUEVO FORMULARIO */
+
+.formdesple {padding:20px;height:auto; width:300px;}
+.bg-form .btn-enviar button{font-size:14px; font-weight: bold; height: 38px; border-bottom: 3px solid #0e59ca;}
+.bg-form {background: rgba(0, 0, 0, 0.6) !important;}
+.bg-form .floating-label input {background:#fff; height:40px; margin-top:12px; border-radius: 2px;}
+.bg-form .floating-label label {font-size:12px; margin-left:15px; margin-top:12px;}
+.bg-form .floating-label textarea {background:#fff; font-size:14px;}
 
 /* BOX CARACTERISTICAS */
 
@@ -167,13 +175,13 @@ div#wrapper-ventana div#ventana input#focus-ventana{width:0px;height:0px;margin:
 
 /* BOX DESCRIPCION */
 
-.box-descrip {padding:40px 0;}
+.box-descrip {padding:40px 0 10px 0;}
 
 .box-descrip h2 {font-weight: lighter;}
 
 .box-descrip h2 span {font-weight: bold;}
 
-.box-descrip .desc-top .col-md-9 h2 {margin-top:0 !important; font-size:25px; font-weight:400;}
+.box-descrip .desc-top .col-md-9 h2 {margin-top:0 !important; font-size:25px; font-weight:500;}
 
 .box-descrip .desc-top .col-md-9 p {line-height:18px; font-size:14px;}
 
@@ -231,8 +239,9 @@ div#wrapper-ventana div#ventana input#focus-ventana{width:0px;height:0px;margin:
 .list-plantas .btn p {line-height: normal; font-size:12px; font-weight: 400;}
 .det-plantas {margin-top:20px;}
 .det-plantas .bx-img img {margin:auto;}
-.det-plantas .desc h2 {font-size:1.8em;}
+.det-plantas .desc h2 {font-size:1.8em; font-weight: 600;}
 .det-plantas .desc h4 {font-size:1em;}
+.det-plantas .desc p {line-height: 18px; font-size: 13px;}
 .det-plantas {}
 
 /* GALERIA BOX */
@@ -241,6 +250,7 @@ div#wrapper-ventana div#ventana input#focus-ventana{width:0px;height:0px;margin:
 .menu-galeria ul li a{color:#fff;}
 .menu-galeria ul li a:hover{background-color: #333333; text-decoration: underline;}
 .menu-galeria .navbar-nav {float:left;}
+.menu-galeria .navbar-nav li{font-size:13px;}
 .in-galeria .big-img img {width:100%;}
 
 /* MANUALES */
@@ -372,6 +382,9 @@ div#wrapper-ventana div#ventana input#focus-ventana{width:0px;height:0px;margin:
 
 /* FORM INVERSIONISTAS */
 
+.form-group input{background-color:#fff !important;}
+.q-picker-textfield {margin-bottom:0 !important; border-bottom:none !important; min-width: 98% !important; background-color:#fff !important; height: 35px;}
+.form-control {padding: 6px 12px !important; font-size: 14px !important;}
 .form-inversion {padding:30px 0;}
 .form-inversion .text-form p {font-size:14px;}
 .form-inversion .text-form h4 {margin-top:35px; font-size:1.2em; font-weight: bold; color:#004A98;}
@@ -537,13 +550,15 @@ div#wrapper-ventana div#ventana input#focus-ventana{width:0px;height:0px;margin:
 
 .box-footer{color:#000;text-align: center;background-color: #004A98; padding-left:0; padding-right:0;}
 
-.box-footer ul li {text-align:left; color: #fff; font-size: 11px; list-style: none; margin: 10px 8px 0 8px;}
+.box-footer ul li {text-align:left; color: #fff; font-size: 14px; list-style: none; margin: 5px 8px 0 8px;}
 
 .box-footer ul li a{color: #fff; text-decoration: none;}
 
-.box-footer img{width: 45%; float: right; margin-bottom: 10px; border-bottom:1px solid #fff; padding-bottom: 25px;}
+.box-footer img{width: 45%; float: right; margin-bottom: 10px; border-bottom:1px solid #fff; padding-bottom: 15px;}
 
 .box-footer .footer-dir{margin:15px 0;}
+
+.box-footer .footer-dir h4{font-weight:600;}
 
 .box-footer .footer-dir ul{padding-left: 0; text-align: center;}
 

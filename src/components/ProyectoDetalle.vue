@@ -1,26 +1,25 @@
 <template>
 <div class="layout-view"  >
-<div style="margin-top:110px">
 
 <!-- CARACTERISTICAS -->
 <div class="container-fluid box-caract">
   <div class="row">
-    <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 caract">
+    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 caract">
       <img src="statics/img/icon-01.png" class="img-responsive"/>
       <h2><span>{{proyecto_actual.dormitorios}}</span> DORM</h2>
     </div>
 
-    <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 caract">
+    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 caract">
       <img src="statics/img/icon-01.png" class="img-responsive"/>
       <h2><span>{{proyecto_actual.banos}}</span> BAÑOS</h2>
     </div>
 
-    <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 caract">
+    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 caract">
       <img src="statics/img/icon-01.png" class="img-responsive"/>
       <h2>DESDE<span> {{proyecto_actual.uf_desde}} UF</span></h2>
     </div>
 
-    <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 caract">
+    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 caract">
       <img src="statics/img/icon-01.png" class="img-responsive"/>
       <h2><span>{{proyecto_actual.m2_desde}} a {{proyecto_actual.m2_hasta}} m2</span></h2>
     </div>
@@ -208,15 +207,15 @@ frameborder="0" scrolling="no" allowfullscreen ></iframe>
   </div>
   <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
     <img src="statics/img/logo-habite-w.png" class="img-responsive" alt="Responsive image">
+    <div class="redes2">
+      <ul>
+        <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+        <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+        <li><i class="fa fa-youtube" aria-hidden="true"></i></li>
+        <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+      </ul>
+    </div>
   </div>
-      <div class="redes2">
-        <ul>
-          <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
-          <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
-          <li><i class="fa fa-youtube" aria-hidden="true"></i></li>
-          <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
-        </ul>
-      </div>
   </ul>
 </div>
 </div>
@@ -239,8 +238,6 @@ frameborder="0" scrolling="no" allowfullscreen ></iframe>
   <input type="text" id="focus-ventana" />
 </div>
 </div>
-</div>
-
 </div>
 </div>
 </template>

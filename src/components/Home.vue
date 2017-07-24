@@ -121,15 +121,16 @@
   </div>
   <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
     <img src="statics/img/logo-habite-w.png" class="img-responsive" alt="Responsive image">
+    <div class="redes2">
+      <ul>
+        <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+        <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+        <li><i class="fa fa-youtube" aria-hidden="true"></i></li>
+        <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+      </ul>
+    </div>
   </div>
-      <div class="redes2">
-        <ul>
-          <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
-          <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
-          <li><i class="fa fa-youtube" aria-hidden="true"></i></li>
-          <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
-        </ul>
-      </div>
+
   </ul>
 </div>
 </div>
